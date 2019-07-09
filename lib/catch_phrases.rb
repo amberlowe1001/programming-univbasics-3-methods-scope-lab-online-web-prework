@@ -10,4 +10,5 @@ end
 def toadstool
   puts status
   status='Thank You Mario! But Our Princess Is In Another Castle!
+  expect{toadstool}.to_stdout
 end
